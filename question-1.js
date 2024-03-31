@@ -12,7 +12,7 @@ let swapCase = function(str){
   function swapString(value){
     let output;    // Value to be returned.
 
-    // Cheking case
+    // Checking case
     if (value === value.toUpperCase()){
       output = value.toLowerCase();
     } else if (value === value.toLowerCase()){

@@ -13,9 +13,50 @@ This document was created with Javascript
 ### Description
 
 This was a code challenge comprised of 3 different tasks, the scripting of:-
-    * Case swapper function
-    * Retrieving an entire array
-    * Retrieving prime numbers from an array
+
+* Case swapper function
+
+* Retrieving an entire array
+
+    ```js
+        // We first collect the 2 numbers.
+        const numOne = parseInt(prompt("Input first number: "));
+        const numTwo = parseInt(prompt("Input second number: "));
+
+        let generateArr = function(a, b){
+            let arr = [];
+
+            if (a < b){
+                // here we use a for loop to loop through the numbers between a, b and adding them to the arr array object.
+            } else if (a > b){
+                // Some code here...
+            }
+
+            return arr;
+        };
+
+        console.log(generateArr(numOne, numTwo))
+    ```
+
+* Retrieving prime numbers from an array
+
+    ```js
+        //We first get the input.
+        let inputArr = prompt("Input an array of numbers: ");
+
+        // Then we check if input is a valid array object. 
+        function validateInput(){
+            // Some code in here...
+        };
+
+        function validPrime(arr){
+
+            // Then we embark on operation filter prime numbers.
+            let newArr = arr.filter(allPrime);
+
+            // Some other code here...
+        };
+    ```
 
 >Love this project? Buy me a coffee...
 ---

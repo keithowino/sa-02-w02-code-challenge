@@ -1,8 +1,6 @@
 
 const prompt = require("prompt-sync")({sigint : true});
 
-let div = "\n============\n\n";
-
 let inputArr = prompt("Input an array of numbers: ");    // Here we ask the user to input an array of numbers.
 
 // After input submission we evaluate to determine whether it is valid to be processed as an array.
