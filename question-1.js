@@ -1,7 +1,7 @@
 
 const prompt = require("prompt-sync")({sigint : true});
 
-const inputStr = prompt("Input text: ");
+const inputStr = prompt("Input text: ");    // Collecting string.
 
 let div = "\n============\n\n";
 
@@ -10,8 +10,9 @@ let swapCase = function(str){
   let swap = edit.map(swapString);
 
   function swapString(value){
-    let output;
+    let output;    // Value to be returned.
 
+    // Cheking case
     if (value === value.toUpperCase()){
       output = value.toLowerCase();
     } else if (value === value.toLowerCase()){
